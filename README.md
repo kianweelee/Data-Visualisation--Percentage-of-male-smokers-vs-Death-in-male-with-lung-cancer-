@@ -1,5 +1,5 @@
 # Data Visualisation- Percentage of male smokers vs Death in male with lung cancer 
- Data is obtained and modified from [Gapminder](https://www.gapminder.org/data/). Only 2005's data is available in this dataset.
+ Data is obtained and modified from [Gapminder](https://www.gapminder.org/data/). Only 2005's data is available in this dataset. I have combined two datasets(one for male smokers and one for death in male with lung cancer) into one. You can download it [here](http://www.sharecsv.com/s/ac4b3c8bbac132cad4012d15c2f929ad/lungcancer_2005.csv).
  
 The main package used in this project is Plotly Express. The template for this code is very similar to ggplot2 in R programming. What's great of this package is that you will only need a few lines of code to create a simple visualisation, with the functionality of viewing the data points when hovered over. 
  
