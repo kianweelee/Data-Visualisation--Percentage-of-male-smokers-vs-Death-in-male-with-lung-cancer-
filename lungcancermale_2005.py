@@ -5,6 +5,9 @@ import pandas as pd
 ## Importing CSV file from desktop
 df = pd.read_csv("~/Desktop/rstat/lungcancer_2005.csv")
 
+cor = df['Death'].corr(df['Percentage_of_smokers'])
+print("Correlation between death and percentage of smokers is {}".format(cor))
+
 figure = px.scatter(df, x="Percentage_of_smokers", y="Death", color="Continent", hover_data=['Continent'])
 
 figure.update_layout(title='Graph of Percentage of male smokers vs Number of death in males with lung cancer in 2005')
